@@ -17,7 +17,7 @@ export const UseUser = () => {
       });
     });
     return () => subscription.unsubscribe();
-  }, []);
+  }, [];
 
   return claims;
 };
